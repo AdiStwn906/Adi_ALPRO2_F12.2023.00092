@@ -12,7 +12,7 @@ void caricetak(int X) {
         if (X == arr[i] && X % 2 == 0) {  // Cek apakah X ada di array dan mencari bilangan genap
             cout << "X ditemukan: " << X << endl;
             isFound = true; // Mengubah isFound false menjadi true jika X ditemukan
-            break;  // Hentikan pencarian setelah ditemukan
+            break;  // Hentikan looping setelah ditemukan
         }
     }
 
